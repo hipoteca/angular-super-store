@@ -1,5 +1,6 @@
 //--core
 import {Component, OnInit} from '@angular/core';
+import {Router} from '@angular/router'
 
 //--interface
 import {Product} from '../commons/product';
@@ -38,7 +39,10 @@ export class ProductsComponent implements OnInit{
     title:string ="All Products";    
     products:Product[];
     
-    constructor(private apiService:ApiService){
+    constructor(
+        private apiService:ApiService,
+        private router:Router
+        ){
         console.debug('ProductsComponent::constructor()');
     }
 

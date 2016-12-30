@@ -11,7 +11,7 @@ import {CartService} from '../services/cart.service'
     selector:'productBox',
     template:
     `
-    <div class="col s12 m3">   
+    <div class="col s12 m4">   
         <div class="card sticky-action">
             <div class="card-image waves-effect waves-block waves-light">
                 <img class="activator responsive-img" [src]="product.image">
@@ -22,9 +22,7 @@ import {CartService} from '../services/cart.service'
             </div>
             <div class="card-action">
                 <button class="btn waves-effect waves-light" (click)="add(product)" >Add </button>
-                <button class="btn waves-effect waves-light" (click)="goToDetails(product)" >Detail </button>
-
-              
+                <button class="btn waves-effect waves-light" (click)="goToDetails(product)" >Detail </button>              
             </div>
             <div class="card-reveal">
                 <span class="card-title grey-text text-darken-4">{{product.name}}<i class="material-icons right">close</i></span>

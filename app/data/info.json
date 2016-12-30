@@ -1,34 +1,52 @@
 [
     {
         "id":1,
-        "name":"Bag",
-        "description":"Is a product bag",
-        "image":"https://static.platzi.com/media/carrer-banner/c-devops2x.png",
+        "name":"Zeiss Super Ikonta",
+        "description":"he new addition is a Zeiss Super Ikonta C, a 6×9 coupled-rangefinder folding camera, and indeed the one by which others are measured. This particular camera is an early version, a 530/2 in Zeiss’s obscure nomenclature, which means black enamel rather than chrome, a regular ompur shutter rather than a -Rapid or a Synchro-, and an uncoated Zeiss Tessar 105/4.5. From what I can figure out, the camera dates from 1933.",
+        "image":"./assets/images/products/Leica-M3_with_35mm_lens.jpg",
         "price":100.0
     },
     {
         "id":2,
-        "name":"Tree",
-        "description":"Is organic tree",
-        "image":"https://static.platzi.com/media/achievements/Badge_platzi_leanUX.png",
+        "name":"Leica M3 ",
+        "description":"With the LEICA M3, you have an unlimited choice of every lens ever made for Leica M and M39 at your disposal. Unlike newer cameras, no lens is incompatible.",
+        "image":"./assets/images/products/Leica-M3_with_35mm_lens.jpg",
         "price":200.0
     },{
         "id":3,
-        "name":"Cup",
-        "description":"Is a product bag",
-        "image":"https://static.platzi.com/media/carrer-banner/c-devops2x.png",
+        "name":"Dacora super dignette",
+        "description":"Die Firma wurde wohl am 1. Januar 1946 von Bernhard Dangelmaier in Reutlingen gegründet. Bis 1954 hieß sie Dangelmeier & Co., danach DACO - Dangelmeier & Co und ab 1960 Dacora-Kamerawerk Dangelmaier & Co. Im Jahre 1969 wurde das Unternehmen von der US-amerikanischen Firma Leach Relais und Elektronik übernommen und hieß von da an Dacora - Kamerawerk GmbH. 1972 wurde der Firmensitz nach München verlegt. Noch im selben Jahr wurde die Produktion allerdings eingestellt.",
+        "image":"./assets/images/products/Leica-M3_with_35mm_lens.jpg",
         "price":300.0
     },{
         "id":4,
-        "name":"Shoe",
-        "description":"Is a product bag",
-        "image":"https://static.platzi.com/media/carrer-banner/c-devops2x.png",
+        "name":"Appareil Kodak B31",
+        "description":"he new addition is a Zeiss Super Ikonta C, a 6×9 coupled-rangefinder folding camera, and indeed the one by which others are measured. This particular camera is an early version, a 530/2 in Zeiss’s obscure nomenclature, which means black enamel rather than chrome, a regular ompur shutter rather than a -Rapid or a Synchro-, and an uncoated Zeiss Tessar 105/4.5. From what I can figure out, the camera dates from 1933.",
+        "image":"./assets/images/products/Leica-M3_with_35mm_lens.jpg",
         "price":400.0
     },{
         "id":5,
-        "name":"Wine",
-        "description":"Is a product bag",
-        "image":"https://static.platzi.com/media/carrer-banner/c-devops2x.png",
+        "name":"Zeiss Super Ikonta",
+        "description":"he new addition is a Zeiss Super Ikonta C, a 6×9 coupled-rangefinder folding camera, and indeed the one by which others are measured. This particular camera is an early version, a 530/2 in Zeiss’s obscure nomenclature, which means black enamel rather than chrome, a regular ompur shutter rather than a -Rapid or a Synchro-, and an uncoated Zeiss Tessar 105/4.5. From what I can figure out, the camera dates from 1933.",
+        "image":"./assets/images/products/Leica-M3_with_35mm_lens.jpg",
+        "price":500.0
+    },{
+        "id":6,
+        "name":"Zeiss-Super-Ikonta",
+        "description":"he new addition is a Zeiss Super Ikonta C, a 6×9 coupled-rangefinder folding camera, and indeed the one by which others are measured. This particular camera is an early version, a 530/2 in Zeiss’s obscure nomenclature, which means black enamel rather than chrome, a regular ompur shutter rather than a -Rapid or a Synchro-, and an uncoated Zeiss Tessar 105/4.5. From what I can figure out, the camera dates from 1933.",
+        "image":"./assets/images/products/Leica-M3_with_35mm_lens.jpg",
+        "price":500.0
+    },{
+        "id":7,
+        "name":"Zeiss-Super-Ikonta",
+        "description":"he new addition is a Zeiss Super Ikonta C, a 6×9 coupled-rangefinder folding camera, and indeed the one by which others are measured. This particular camera is an early version, a 530/2 in Zeiss’s obscure nomenclature, which means black enamel rather than chrome, a regular ompur shutter rather than a -Rapid or a Synchro-, and an uncoated Zeiss Tessar 105/4.5. From what I can figure out, the camera dates from 1933.",
+        "image":"./assets/images/products/Leica-M3_with_35mm_lens.jpg",
+        "price":500.0
+    },{
+        "id":8,
+        "name":"Zeiss-Super-Ikonta",
+        "description":"he new addition is a Zeiss Super Ikonta C, a 6×9 coupled-rangefinder folding camera, and indeed the one by which others are measured. This particular camera is an early version, a 530/2 in Zeiss’s obscure nomenclature, which means black enamel rather than chrome, a regular ompur shutter rather than a -Rapid or a Synchro-, and an uncoated Zeiss Tessar 105/4.5. From what I can figure out, the camera dates from 1933.",
+        "image":"./assets/images/products/Leica-M3_with_35mm_lens.jpg",
         "price":500.0
     }
 ]

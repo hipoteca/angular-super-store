@@ -10,11 +10,13 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 //--core
 var core_1 = require('@angular/core');
+var router_1 = require('@angular/router');
 //--services
 var api_services_1 = require('../services/api.services');
 var ProductsComponent = (function () {
-    function ProductsComponent(apiService) {
+    function ProductsComponent(apiService, router) {
         this.apiService = apiService;
+        this.router = router;
         this.title = "All Products";
         console.debug('ProductsComponent::constructor()');
     }
@@ -33,7 +35,7 @@ var ProductsComponent = (function () {
             template: "\n    <div class=\"section\">\n        <div class=\"row\">\n            <div class=\"col m12\">\n                <h2 class=\"red-text text-lighten-3\" >{{title}}</h2>\n            </div> \n        </div>\n    </div>\n   <div class=\"section\">\n    <div class=\"row\">\n        <div class=\"col m9\">\n            \n            <div class=\"row\">\n                <productBox [product]=\"product_info\" *ngFor=\"let product_info of products\"> </productBox>\n            </div>\n        </div>\n        <div class=\"col m3\">\n            <cartDetail></cartDetail>\n        </div>\n    </div>\n    </div>\n    ",
             providers: [api_services_1.ApiService]
         }), 
-        __metadata('design:paramtypes', [api_services_1.ApiService])
+        __metadata('design:paramtypes', [api_services_1.ApiService, router_1.Router])
     ], ProductsComponent);
     return ProductsComponent;
 }());

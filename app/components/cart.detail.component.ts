@@ -1,4 +1,5 @@
 import {Component,OnInit} from '@angular/core';
+import {Router} from '@angular/router'
 
 import {CartService}  from '../services/cart.service'
 
@@ -11,6 +12,11 @@ import {CartService}  from '../services/cart.service'
     <div class="card ">
         <div class="card-content ">
             <span class="card-title">My Cart</span>
+            
+
+            
+                
+            
             <table class="bordered" >
                 <thead>
                     <tr>
@@ -36,6 +42,14 @@ import {CartService}  from '../services/cart.service'
                         <td>{{detail.items}}</td>
                         <td>{{detail.total  | currency:'USD':true:'4.2-2' }} </td>
                     </tr>
+                    <tr>
+                        <td colspan="2">&nbsp;</td>
+                        <td colspan="2">
+                        <button class="btn waves-effect waves-light" (click)="checkout(key)" >Checkout
+                            <i class="material-icons right">send</i>
+                        </button>
+                        </td>
+                    </tr>
                 </tfoot>
             </table>
               
@@ -53,7 +67,10 @@ import {CartService}  from '../services/cart.service'
 export class CarDetailComponent implements OnInit{
     products:any;
     detail:any;
-    constructor (private cartService:CartService){
+    constructor (
+        private cartService:CartService,
+        private router:Router
+        ){
         console.debug('CarDetailComponent::constructor');
         console.info(cartService)
     }
@@ -67,6 +84,12 @@ export class CarDetailComponent implements OnInit{
         console.debug('CarDetailComponent::deleteItem()')
         console.info(key);
         this.cartService.deleteItem(key);
+
+    }
+    
+    checkout(key:any){
+        console.info('CarDetailComponent::ckeckout');
+        this.router.navigate(['/checkout']);
 
     }
     keys(){

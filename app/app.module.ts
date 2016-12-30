@@ -11,11 +11,13 @@ import {CarDetailComponent} from './components/cart.detail.component'
 
 import {WellcomeComponent} from './components/wellcome.component';
 import {ProductDetailComponent} from './components/detail.component';
+import {CheckoutComponent} from './components/checkout.component'
 
 const ROUTES= [
-    {path:''            ,component:WellcomeComponent },
-    {path:'products'    ,component:ProductsComponent},
-    {path:'product/:id' ,component:ProductDetailComponent}
+    {path:''            ,component:WellcomeComponent    },
+    {path:'products'    ,component:ProductsComponent    },
+    {path:'product/:id' ,component:ProductDetailComponent},
+    {path:'checkout'    ,component:CheckoutComponent    }
     ];
 
 @NgModule({
@@ -32,6 +34,7 @@ const ROUTES= [
         ,CarDetailComponent
         ,WellcomeComponent
         ,ProductDetailComponent
+        ,CheckoutComponent
 
         ],
     bootstrap:[

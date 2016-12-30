@@ -19,10 +19,12 @@ var cart_component_1 = require('./components/cart.component');
 var cart_detail_component_1 = require('./components/cart.detail.component');
 var wellcome_component_1 = require('./components/wellcome.component');
 var detail_component_1 = require('./components/detail.component');
+var checkout_component_1 = require('./components/checkout.component');
 var ROUTES = [
     { path: '', component: wellcome_component_1.WellcomeComponent },
     { path: 'products', component: products_component_1.ProductsComponent },
-    { path: 'product/:id', component: detail_component_1.ProductDetailComponent }
+    { path: 'product/:id', component: detail_component_1.ProductDetailComponent },
+    { path: 'checkout', component: checkout_component_1.CheckoutComponent }
 ];
 var AppModule = (function () {
     function AppModule() {
@@ -41,7 +43,8 @@ var AppModule = (function () {
                 cart_component_1.CartComponent,
                 cart_detail_component_1.CarDetailComponent,
                 wellcome_component_1.WellcomeComponent,
-                detail_component_1.ProductDetailComponent
+                detail_component_1.ProductDetailComponent,
+                checkout_component_1.CheckoutComponent
             ],
             bootstrap: [
                 app_component_1.AppComponent
