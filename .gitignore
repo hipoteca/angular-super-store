@@ -41,3 +41,11 @@ node_modules
 
 # public 
 public
+
+
+# dist
+dist
+
+# all js into app
+app/**.js
+app/**.map
