@@ -1,4 +1,7 @@
+//--core
 import {Component} from '@angular/core';
+
+//--service
 import {CartService} from '../services/cart.service'
 
 

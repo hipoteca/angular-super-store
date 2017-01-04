@@ -8,15 +8,18 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+//--core
 var core_1 = require('@angular/core');
 var platform_browser_1 = require('@angular/platform-browser');
 var http_1 = require('@angular/http');
 var router_1 = require('@angular/router');
+//--components
 var app_component_1 = require('./components/app.component');
 var products_component_1 = require('./components/products.component');
 var productbox_component_1 = require('./components/productbox.component');
 var cart_component_1 = require('./components/cart.component');
 var cart_detail_component_1 = require('./components/cart.detail.component');
+//--components - root
 var wellcome_component_1 = require('./components/wellcome.component');
 var detail_component_1 = require('./components/detail.component');
 var checkout_component_1 = require('./components/checkout.component');

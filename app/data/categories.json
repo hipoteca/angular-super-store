@@ -1,0 +1,22 @@
+[
+    {
+        "id":1,
+        "name":"Cameras",
+        "image":"./assets/cameras.jpg"
+    },
+    {
+        "id":2,
+        "name":"Cars",
+        "image":"./assets/cars.jpg"
+    },
+    {
+        "id":3,
+        "name":"Houses",
+        "image":"./assets/cars.jpg"
+    },
+    {
+        "id":4,
+        "name":"Boats",
+        "image":"./assets/cars.jpg"
+    }
+]

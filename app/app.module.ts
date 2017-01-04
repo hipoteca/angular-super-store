@@ -1,14 +1,16 @@
+//--core
 import {NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
 import {HttpModule} from '@angular/http';
 import {RouterModule} from '@angular/router'
 
+//--components
 import {AppComponent} from './components/app.component';
 import {ProductsComponent} from './components/products.component';
 import {ProductBoxComponent} from './components/productbox.component';
 import {CartComponent} from './components/cart.component';
 import {CarDetailComponent} from './components/cart.detail.component'
-
+//--components - root
 import {WellcomeComponent} from './components/wellcome.component';
 import {ProductDetailComponent} from './components/detail.component';
 import {CheckoutComponent} from './components/checkout.component'

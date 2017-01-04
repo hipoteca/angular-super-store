@@ -18,10 +18,8 @@
     
     <my-app>Loading AppComponent ...</my-app>
 
-    <!-- build:vendor -->
-    <script src="node_modules/systemjs/dist/system.src.js"></script>
-    <script src="systemjs.config.js"></script>
-    <!-- endbuild -->
+    <script src="1483491434578.vendor.bundle.js"></script>
+
     
    
         
@@ -32,13 +30,8 @@
       
 
 
-       <!-- build:app -->
-    <script>
-      System.import('app/vendor').then(function() {
-        System.import('app').catch(function(err){ console.error(err); });
-      });
-    </script>
-    <!-- endbuild -->
+       <script src="1483491434578.main.bundle.js"></script>
+
 
   </body>
 </html>
