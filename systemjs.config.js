@@ -31,7 +31,8 @@
       'core-js-shim':'npm:core-js/client/shim.min.js',
       'zone':'npm:zone.js/dist/zone.js',
       'reflect':'npm:reflect-metadata/Reflect.js',
-       'jQuery':'npm:jquery/dist/jquery.js'
+      'jQuery':'npm:jquery/dist/jquery.js',
+     // 'materialize-css':'npm:materialize-css/dist/js/materialize.js'
     },
     // packages tells the System loader how to load when no filename and/or no extension
     packages: {

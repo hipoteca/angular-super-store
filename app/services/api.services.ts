@@ -22,6 +22,20 @@ export class ApiService{
         .then( products => products.find((product:Product) => product.id=id) )
     }
 
+    getSlides(){
+        return this.http.get('app/data/slides.json')
+        .toPromise()
+        .then(response => response.json())
+        .catch(this.error)
+    }
+
+    getCategories(){
+        return this.http.get('app/data/categories.jason')
+        .toPromise()
+        .then(response => response.json())
+        .catch(this.error);
+    }
+
     error(error:any){
         return Promise.reject(error.message || error);
     }
